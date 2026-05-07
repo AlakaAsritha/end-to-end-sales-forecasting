@@ -48,6 +48,9 @@ http://localhost:8000/forecast/California
 
 ## Outputs
 Future 8-week forecasts
+
 Actual vs Predicted graphs
+
 Forecast visualization plots
+
 JSON API responses
