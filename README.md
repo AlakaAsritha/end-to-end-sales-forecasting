@@ -34,12 +34,15 @@ Train for a specific state:
 python main.py --state Alabama
 
 Generate reports and plots
-python -m src.export_metrics
+python -m src.export_metrics ,
 python -m src.visualizer
+
 Run FastAPI server
 uvicorn src.api:app --reload
+
 Open Swagger UI
 http://127.0.0.1:8000/docs
+
 Test API
 http://localhost:8000/forecast/California
 
