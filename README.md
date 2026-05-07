@@ -33,17 +33,17 @@ python main.py
 Train for a specific state:
 python main.py --state Alabama
 
-Generate reports and plots
+Generate reports and plots:
 python -m src.export_metrics ,
 python -m src.visualizer
 
-Run FastAPI server
+Run FastAPI server:
 uvicorn src.api:app --reload
 
-Open Swagger UI
+Open Swagger UI:
 http://127.0.0.1:8000/docs
 
-Test API
+Test API:
 http://localhost:8000/forecast/California
 
 ## Outputs
